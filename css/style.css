@@ -1,21 +1,20 @@
 *{ box-sizing: border-box;}
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 {width: 25%; }
+.col-4 {width: 33.33%; }
+.col-5 {width: 41.66%; }
+.col-6 {width: 50%; }
+.col-7 {width: 58.33%; }
+.col-8 {width: 66.66%; }
+.col-9 {width: 75%; }
+.col-10 {width: 83.33%; }
+.col-11 {width: 91.66%; }
+.col-12 {width: 100%; }
 
-[class*='col-'] {
-    box-sizing: border-box;
-    border: 1px solid;
+[class*='col']{
+    border: 1px solid red;
     float: left;
 }
 
@@ -25,18 +24,18 @@
     display: block;
 }
 
-.wrapper{
+wrapper{
     height: auto;
-    width: 100% ;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
 }
 
-.header-top-height{ height: 30px;}
-.header-height{ height: 200px;}
-.menu-height{ height: 50px;}
-.content-height{ height: 300px;}
-.big-footer-height{ height: 200px;}
-.footer-height {height: 30px;}
+.header-top-height{ height: 30px; }
+.header-height { height: 200px; }
+.menu-height { height: 50px; }
+.content-height { height: 300px; }
+.big-footer-height { height: 200px; }
+.footer-height { height: 30px; }
 
 .main-ul{
     margin: 0px;
@@ -46,17 +45,16 @@
 
 .main-ul li{
     float: left;
-    width: 120px;
+    width:20%;
     border: 1px solid gray;
 }
 
 .main-ul li a{
-    border: 1px solid;
     display: block;
-    text-decoration: none;
     text-align: center;
-    height: 47px;
-    padding-top: 15px;
+    text-decoration: none;
+    height: 46px;
+    padding-top: 12px;
     background-color: black;
     color: white;
     transition: 1s;
@@ -67,67 +65,123 @@
     color: black;
 }
 
-/*.div-one{*/
-/*    height: 200px;*/
-/*    width: 200px;*/
-/*    background-color: red;*/
-/*    margin: 50px 0px 0px 50px;*/
-/*    border-radius: 0px 0px 0px 0px;*/
-/*    transform: skewY(25deg);*/
-/*    float: left;*/
-/*}*/
-
-/*.div-two{*/
-/*    height: 200px;*/
-/*    width: 200px;*/
-/*    background-color: red;*/
-/*    margin: 50px 0px 0px 5px;*/
-/*    border-radius: 0px 0px 0px 0px;*/
-/*    transform: skewY(-25deg);*/
-/*    float: left;*/
-/*}*/
-
-/*.div-one{*/
-/*    height: 200px;*/
-/*    width: 20px;*/
-/*    background-color: red;*/
-/*    margin: 50px 0px 0px 50px;*/
-/*    transform: skew(-30deg);*/
-/*    float: left;*/
-/*}*/
-
-/*.div-two{*/
-/*    height: 200px;*/
-/*    width: 20px;*/
-/*    background-color: red;*/
-/*    margin: 50px 0px 0px 110px;*/
-/*    transform: skew(30deg);*/
-/*    float: left;*/
-/*}*/
-
 .div-one {
     height: 200px;
-    width: 200px;
-    /*background-color: red;*/
-    margin: 50px 0px 0px 50px;
+    width: 400px;
+    margin: 50px 0 0 50px;
     float: left;
     animation: bitm;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    /*background: linear-gradient(to bottom, red, green);*/
-    /*transform: rotateY(0deg);*/
-    /*transition: 1s;*/
 }
 
 @keyframes bitm {
-    0% {background: url("../images/10891815_10153148367455373_1301829043596123354_n.jpg");}
-    25% { background: url("../images/12321401_596797757149741_6637426783109097863_n.jpg");}
-    50% { background: url("../images/13620892_1152979834769070_6333140167336531791_n.jpg");}
-    75% { background: url("../images/14171190344451.jpg");}
-    100% { background: url("../images/Screenshot_1.jpg");}
+    0% { background: url("../images/eee.jpg") }
+    25% { background: url("../images/greetings.jpg") }
+    50% { background: url("../images/islam.jpg") }
+    75% { background: url("../images/name.jpg") }
+    100% { background: url("../images/seu.jpg") }
 
 }
 
-.div-one:hover{
-    /*transform: rotateY(90deg);*/
-}
+
+/*@keyframes bitm {*/
+/*    0% { background-color: blue; width: 210px; }*/
+/*    10% { background-color: green; width: 220px; }*/
+/*    20% { background-color: yellow; width: 230px; }*/
+/*    30% { background-color: orange; width: 240px; }*/
+/*    40% { background-color: pink; width: 250px; }*/
+/*    50% { background-color: gold; width: 260px; }*/
+/*    60% { background-color: skyblue; width: 270px; }*/
+/*    70% { background-color: magenta; width: 280px; }*/
+/*    80% { background-color: maroon; width: 290px; }*/
+/*    90% { background-color: red; width: 300px; }*/
+/*    100% { background-color: black; width: 310px; }*/
+/*}*/
+
+
+/*.div-one {*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    margin: 50px 0 0 50px;*/
+/*    float: left;*/
+/*    background: linear-gradient(to right, red, orange, green, blue );*/
+/*}*/
+
+
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: red;*/
+/*    margin: 50px 0 0 50px;*/
+/*    float: left;*/
+/*    !*transform: rotateY(0deg);*!*/
+/*    !*transition: 1s;*!*/
+
+/*}*/
+
+
+/*.div-one:hover{*/
+/*    transform: rotateY(90deg);*/
+/*}*/
+
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    margin: 50px 0 0 50px;*/
+/*    float: left;*/
+/*    border: 1px solid red;*/
+/*    border-right: none;*/
+/*}*/
+
+
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 20px;*/
+/*    background-color: red;*/
+/*    margin: 50px 0 0 50px ;*/
+/*    float: left;*/
+/*    transform: skew(-30deg);*/
+
+
+/*}*/
+
+/*.div-two{*/
+/*    height: 200px;*/
+/*    width: 20px;*/
+/*    background-color: red;*/
+/*    margin: 50px 0 0 110px ;*/
+/*    float: left;*/
+/*    transform: skew(30deg);*/
+
+/*}*/
+
+/*.div-three{*/
+/*    height: 15px;*/
+/*    width: 140px;*/
+/*    background-color: red;*/
+/*    margin: 150px 0 0 50px;*/
+/*}*/
+
+/*.div-one{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: red;*/
+/*    margin: 50px 0 0 50px ;*/
+/*    !*border-radius: 100px 0px 0px 0px ;*!*/
+/*    transform: skewY(25deg);*/
+/*    float: left;*/
+
+/*}*/
+
+/*.div-two{*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background-color: red;*/
+/*    margin: 50px 0 0 1px ;*/
+/*    !*border-radius: 100px 0px 0px 0px ;*!*/
+/*    transform: skewY(-25deg);*/
+/*    float: left;*/
+
+/*}*/
+
